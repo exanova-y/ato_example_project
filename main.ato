@@ -1,4 +1,9 @@
 """Brand new atopile project!"""
 
+# direct import statements, I think you don't need to use the 
+# import from the faebryk library
+
+import ElectricLogic
+
 module App:
-    pass
+    electrodes = new ElectricLogic[64]
